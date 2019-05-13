@@ -16,7 +16,7 @@ public class Circle implements Shape{
 
     @Override
     public double getPeremeter() {
-        return Math.PI*this.radius; 
+        return Math.PI*this.radius*2; 
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
